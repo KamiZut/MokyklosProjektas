@@ -1,0 +1,57 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 4em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 2em;
+    padding: 0em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0em;
+}
+
+nav ul a:hover{
+    background-color: cadetblue;
+    color: black;;
+}
+
+nav ul a:active{
+    background-color: salmon;
+    color:darkslategrey;
+
+}
+
+nav ul li {
+    height: 30px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    background-color: slategrey;
+    padding: 5px;
+    border: 1px solid darkblue;
+    margin: 2px;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 2em;
+    overflow: hidden;
+}

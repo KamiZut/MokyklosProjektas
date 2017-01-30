@@ -1,0 +1,23 @@
+
+body{
+    font-size: 12px ;
+}
+    p{
+        font-family: Arial;
+    }
+        .spalva {
+            display:inline;
+            background-color: black;
+        }
+        #melynas{
+            color: white;
+            background-color: #999999;
+            font-family: Calibri;
+        }
+        #raudonas{
+            color:rgb(255,0,0);
+        }
+        #zalias{
+            color: #00FF00;
+
+        }
